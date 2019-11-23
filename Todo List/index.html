@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header id="top" class="Logo">
+      <h1 id="myHeading" class = "Brand">ToDoList</h1>
+      <p id="myHeading">Organize it all with <strong class = "Brand">ToDoList</strong></p>
+    </header>
+    
+    
+    <button id="toggleList">Hide list</button>
+    
+    <!--We want to hide what's inside this div container-->
+    <div class="list">
+        <p class="description">Things ToDo:</p> 
+    <!--    adding input box-->
+        <input type="text" class="description">
+    <!--    add a button-->
+        <button class="description">Change list description</button>
+        
+        <ul>
+          <li>Change list description</li>
+          <li>Add 3 items into the list</li>
+          <li>Remove 1 item from then list</li>
+          <li>Hide list</li>
+          <li>Show lists</li>
+        </ul>
+      
+<!--        ceating new element-->
+       <input type="text" class="addItemInput">
+        <button class="addItemButton">Add item</button>
+        <button class="removeItemButton">Remove last item</button>
+      </div>
+    <footer>&copy; Copyright 2019 Felix Andrew Sapalaran</footer>  
+    <script src="app.js"></script>
+    <script src="temp.js"></script>
+  </body>
+
+</html>
